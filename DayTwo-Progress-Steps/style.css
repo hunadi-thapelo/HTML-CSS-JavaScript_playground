@@ -88,3 +88,13 @@ body{
     margin: 5px;
     font-size: 14px;
 }
+
+/* scaling effect on active button */
+.btn:active {
+    transform: scale(0.98);
+}
+
+/* remove the outline when button is in focus*/
+.btn:focus {
+    outline: 0;
+}
