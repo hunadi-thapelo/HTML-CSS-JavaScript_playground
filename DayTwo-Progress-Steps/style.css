@@ -32,12 +32,12 @@ body{
     justify-content: space-between;
     position: relative;
     margin-bottom: 30px;
-    max-width: 110%;
+    max-width: 100%;
     width: 350px;
 }
 
-.progress-container ::before {
-    content: '';
+.progress-container::before {
+    content:'';
     background-color: var(--line-border-empty);
     position: absolute;
     top: 50%;
@@ -55,7 +55,7 @@ body{
     left: 0;
     transform: translateY(-50%);
     height: 3px;
-    width: 100%;
+    width: 0%;
     z-index: -1;
     transition: 0.4s ease;
 } 
